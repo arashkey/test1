@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Link, BrowserRouter, Switch, Route } from "react-router-dom";
 import Employees from "./components/Employees/Employees";
 import Employee from "./components/Employee/Employee";
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
           <header className="App-header">
             <div>
               <img src={logo} className="App-logo" alt="logo" />
-              <span>Test website</span>
+              <Link to="/">Test website</Link>
             </div>
           </header>
 
