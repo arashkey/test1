@@ -10,7 +10,10 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <div>
+              <img src={logo} className="App-logo" alt="logo" />
+              <span>Test website</span>
+            </div>
           </header>
 
           <Switch>
