@@ -26,6 +26,9 @@ class Employee extends Component {
         <table>
           <tbody>
             <tr>
+              <td colSpan="2">Employee</td>
+            </tr>
+            <tr>
               <td>Name</td>
               <td>{this.name}</td>
             </tr>
